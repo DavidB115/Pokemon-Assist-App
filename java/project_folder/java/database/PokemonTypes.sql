@@ -393,3 +393,5 @@ VALUES ('Steel',
          '0.5',
          '1'
  );
+
+ COMMIT TRANSACTION;
