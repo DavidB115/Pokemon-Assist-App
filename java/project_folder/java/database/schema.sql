@@ -30,7 +30,8 @@ CREATE TABLE pokemon_types (
     ice_effectiveness float NOT NULL,
     dragon_effectiveness float NOT NULL,
     dark_effectiveness float NOT NULL,
-    fairy_effectiveness float NOT NULL
+    fairy_effectiveness float NOT NULL,
+    CONSTRAINT PK_pokemon_type PRIMARY KEY (type_id)
 );
 
 COMMIT TRANSACTION;
