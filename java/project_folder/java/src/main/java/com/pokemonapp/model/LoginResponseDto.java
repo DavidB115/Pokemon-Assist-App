@@ -1,4 +1,4 @@
-package com.techelevator.model;
+package com.pokemonapp.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 /*

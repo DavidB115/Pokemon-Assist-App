@@ -1,4 +1,4 @@
-package com.techelevator.model;
+package com.pokemonapp.model;
 
 import javax.validation.constraints.NotEmpty;
 /*

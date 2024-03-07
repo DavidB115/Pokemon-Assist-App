@@ -1,9 +1,9 @@
-package com.techelevator.controller;
+package com.pokemonapp.controller;
 
 import javax.validation.Valid;
 
-import com.techelevator.exception.DaoException;
-import com.techelevator.model.*;
+import com.pokemonapp.exception.DaoException;
+import com.pokemonapp.model.*;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,13 +11,12 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.techelevator.dao.UserDao;
-import com.techelevator.security.jwt.JWTFilter;
-import com.techelevator.security.jwt.TokenProvider;
+import com.pokemonapp.dao.UserDao;
+import com.pokemonapp.security.jwt.JWTFilter;
+import com.pokemonapp.security.jwt.TokenProvider;
 
 @RestController
 @CrossOrigin

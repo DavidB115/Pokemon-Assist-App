@@ -1,7 +1,7 @@
-package com.techelevator.dao;
+package com.pokemonapp.dao;
 
-import com.techelevator.model.RegisterUserDto;
-import com.techelevator.model.User;
+import com.pokemonapp.model.RegisterUserDto;
+import com.pokemonapp.model.User;
 
 import java.util.List;
 

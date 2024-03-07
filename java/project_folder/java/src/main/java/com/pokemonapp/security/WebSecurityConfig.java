@@ -1,7 +1,7 @@
-package com.techelevator.security;
+package com.pokemonapp.security;
 
-import com.techelevator.security.jwt.JWTConfigurer;
-import com.techelevator.security.jwt.TokenProvider;
+import com.pokemonapp.security.jwt.JWTConfigurer;
+import com.pokemonapp.security.jwt.TokenProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

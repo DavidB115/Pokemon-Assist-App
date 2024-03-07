@@ -1,4 +1,4 @@
-package com.techelevator.model;
+package com.pokemonapp.model;
 
 import java.util.Objects;
 
