@@ -14,4 +14,11 @@ public class EffectivenessDto {
         this.effectivenessValues = effectivenessValues;
     }
 
+    public List<Long> getEffectivenessValues() {
+        return effectivenessValues;
+    }
+
+    public void setEffectivenessValues(List<Long> effectivenessValues) {
+        this.effectivenessValues = effectivenessValues;
+    }
 }
