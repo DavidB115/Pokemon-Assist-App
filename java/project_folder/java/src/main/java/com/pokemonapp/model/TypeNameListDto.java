@@ -3,21 +3,21 @@ package com.pokemonapp.model;
 import java.util.List;
 
 public class TypeNameListDto {
-    private List<String> typeNames;
+    private List<TypeNameDto> typeNames;
 
     public TypeNameListDto() {
 
     }
 
-    public TypeNameListDto(List<String> typeNames){
+    public TypeNameListDto(List<TypeNameDto> typeNames){
         this.typeNames = typeNames;
     }
 
-    public List<String> getTypeNames() {
+    public List<TypeNameDto> getTypeNames() {
         return typeNames;
     }
 
-    public void setTypeNames(List<String> typeNames) {
+    public void setTypeNames(List<TypeNameDto> typeNames) {
         this.typeNames = typeNames;
     }
 }
